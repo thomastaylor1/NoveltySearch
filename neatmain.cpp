@@ -28,11 +28,7 @@ int main(int argc, char **argv) {
 	strcpy(settingsname,argv[1]);
 
   NEAT::load_neat_params(settingsname,true);
-<<<<<<< HEAD
   cout<<"nb args : "<<argc<<endl;
-=======
-
->>>>>>> e410307f03cfcff56a90b3c972d749d06bd34bfe
   cout<<"loaded"<<endl;
 
 
@@ -62,18 +58,12 @@ if(choice==-1)
   switch ( choice )
     {
     case 1:
-<<<<<<< HEAD
       cout<<"Calling maze_fitness with : "<<filename<<" "<<mazename<<" "<<param<<endl;
       p = maze_fitness_realtime(filename,mazename,param);
       break;
     case 2:
       cout<<"Calling maze_novelty with : "<<filename<<" "<<mazename<<" "<<param<<endl;
-=======
       p = maze_fitness_realtime(filename,mazename,param);
-      break;
-    case 2:
->>>>>>> e410307f03cfcff56a90b3c972d749d06bd34bfe
-      p = maze_novelty_realtime(filename,mazename,param);
       break;
     default:
       cout<<"Not an available option."<<endl;
