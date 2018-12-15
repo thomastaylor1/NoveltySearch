@@ -1,0 +1,8 @@
+162.847 67.3651 152.244 0 7.2 25 -10 [...] -10 0.988934 203.297 259
+
+ToRec[0] = fitness de l'individu
+ToRec[1] = location.x coordonnée x de l'individu
+ToRec[2] = location.y coordonnée y de l'individu
+ToRec[3] = reachgoal 0 si pas solved, 1 si solved
+ToRec[RECSIZE-2]= novelty valeur de novelty
+ToRec[RECSIZE-1] = highest_fitness plus grande fitness jusqu'ici
