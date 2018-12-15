@@ -10,7 +10,10 @@
 *.lai
 *.la
 *.a
+<<<<<<< HEAD
 
 dataFiles
 
 *.svg
+=======
+>>>>>>> e410307f03cfcff56a90b3c972d749d06bd34bfe

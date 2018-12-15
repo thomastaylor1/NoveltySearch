@@ -5,7 +5,11 @@
 #include <fstream>
 #include <iostream>
 
+<<<<<<< HEAD
 #define RECSIZE 10
+=======
+#define RECSIZE 120
+>>>>>>> e410307f03cfcff56a90b3c972d749d06bd34bfe
 using namespace std;
 
 class data_record

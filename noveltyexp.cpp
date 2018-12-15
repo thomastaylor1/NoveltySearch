@@ -128,6 +128,10 @@ int maze_fitness_realtime_loop(Population *pop) {
       cout<<"ERROR EMPTY GEMOME!"<<endl;
       cin>>pause;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e410307f03cfcff56a90b3c972d749d06bd34bfe
 	//map the novelty point to each individual (this runs the maze simulation)
 	(*curorg)->noveltypoint = maze_novelty_map((*curorg));
 	(*curorg)->noveltypoint->indiv_number = indiv_counter;
@@ -151,10 +155,15 @@ int maze_fitness_realtime_loop(Population *pop) {
 
   //run for 2000 generations (250*2000 = 500,000 evaluations)
   for
+<<<<<<< HEAD
 (offspring_count=0;offspring_count<NEAT::pop_size*1000;offspring_count++)
 {
 	if(firstflag)
 		break;
+=======
+(offspring_count=0;offspring_count<NEAT::pop_size*2001;offspring_count++)
+{
+>>>>>>> e410307f03cfcff56a90b3c972d749d06bd34bfe
 
     if(offspring_count % (NEAT::pop_size*NEAT::print_every) == 0 )
 	{
@@ -374,8 +383,12 @@ int maze_novelty_realtime_loop(Population *pop) {
 (offspring_count=0;offspring_count<NEAT::pop_size*2000;offspring_count++)
 {
 	//only continue past generation 1000 if not yet solved
+<<<<<<< HEAD
 	//if(offspring_count>=pop_size*1000 && firstflag)
 	if(firstflag)
+=======
+	if(offspring_count>=pop_size*1000)//&& firstflag)
+>>>>>>> e410307f03cfcff56a90b3c972d749d06bd34bfe
 		break;
 
 
